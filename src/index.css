@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #08070d;
+}
+
+#root {
+  min-height: 100vh;
+}
